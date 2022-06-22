@@ -1,0 +1,94 @@
+body {
+    background-color: #f7ecdd;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.navbar{
+    color: #573207;
+}
+
+.bg-footer {
+    background-image: url(books_b-w.jpg);
+    background-size: 100%;
+    color: white;
+}
+
+.bg-card {
+    background-color: #F8F8F6;
+    transition: 0.15s ease-in-out;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    border-color: #57320779;
+    border-width: thin;
+    text-align: right;
+}
+
+.bg-card:hover {
+    transform: scale(1.02);
+}
+
+.blockquote {
+    border: 1px solid #5732072d;
+    border-radius: 0.3em;
+    font-style: italic;
+    font-size: 1.1em;
+}
+
+.btn {
+    transition: 0.2s;
+}
+
+.btn:hover {
+    background-color: #eceff5;
+}
+
+.logo {
+    transition: 1s ease-in-out;
+}
+
+.logo:hover {
+    transform: rotate(360deg);
+}
+
+.link {
+    text-decoration: none;
+    color:black;
+}
+
+.bg-footer a {
+    color: white;
+    font-size: 0.85em;
+}
+
+svg {
+    color: white;
+}
+
+.credit {
+    font-size: 0.5em;
+}
+
+.title {
+    font-size: 1.25em;
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 0.75em;
+    }
+
+    .card-title{
+        font-size: 1.25em;
+    }
+
+    .card-text{
+        font-size: 0.75em;
+    }
+
+    .btn-read{
+        font-size: 0.7em;
+    }
+}
